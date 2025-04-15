@@ -1,4 +1,5 @@
-h1{
-    color: blue;
-    text-shadow: 2px 2px 3px purple; 
+body{
+    display: grid;
+    grid-template-columns: repeat();
+    justify-content: center;
 }
