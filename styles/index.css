@@ -1,0 +1,15 @@
+@import url(./header.css);
+@import url(./main.css);
+@import url(./footer.css);
+
+body{
+    width: 100vw;
+    height: 100vh;
+
+    margin: 0;
+    padding: 0;
+}
+
+.color_dark_blue{
+    background-color: #22293B;
+}

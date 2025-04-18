@@ -1,0 +1,64 @@
+main{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#big_img_p{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(132, 132, 132);
+}
+
+#img_main{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(109, 108, 108);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    
+
+#profile_erick{
+    width: 45%;
+    height: 100%;   
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.margin_0{
+    margin: 0;
+    padding: 0;
+}
+
+#first_name{
+    font-size: 650%;
+    font-family: "Inria Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+}
+
+#last_name{
+    font-size: 600%;
+    font-family: "Inria Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+#info_profile{
+    font-size: 150%;
+    font-family: "Inria Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+
