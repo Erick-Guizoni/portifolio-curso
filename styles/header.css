@@ -19,17 +19,8 @@ header{
     justify-content: start;
 }
 
-#img_secundary{
-    width: 15%;
-    height: 64%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(109, 108, 108);
-}
-
 #profession{
-    width: 40%;
+    width: 60%;
     height: 55%;
     display: flex;
     align-items: center;
@@ -37,6 +28,7 @@ header{
     font-family: "Inria Serif", serif;
     font-weight: 700;
     font-style: normal;
+    font-size: 5vh;
     color: var(--cor_branca);
 }
 
