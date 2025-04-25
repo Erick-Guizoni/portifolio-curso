@@ -1,5 +1,5 @@
 footer{
-    background-color: rgb(163, 161, 161);
+    
     width: 98%;
     height: 9%;
     padding: 0 1%;
@@ -13,6 +13,14 @@ footer{
     width: 5%;
     height: 100%;   
     border-radius: 100vh;
-    background-color: #DDA615;
+    font-size: 7vh;
+    background-color: transparent;
+    border: none;
 }
+
+#icon_linkedIn{
+    color: var(--cor_branca);
+}
+
+
 
