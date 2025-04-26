@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap');
 @import url(./header.css);
 @import url(./main.css);
 @import url(./footer.css);
@@ -18,10 +18,10 @@ body{
 :root{
     --cor_branca:#ffffff;
 
-    --font_p: "Inria Sans";
+    --font_p: "Press Start 2P";
     
-    --font_s: "Inria Serif";
+    --font_s: "VT323";
 
-    --font_t: "Oswald";
+    --font_t: ;
 }
 
