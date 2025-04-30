@@ -12,7 +12,13 @@ main{
     height: 100%;
     border-radius: 100vw;
     z-index: 1;
+    transition: all 0.2s ease-in-out;
 }    
+
+#img_main:hover{
+  width: auto;
+  height: 85vh;
+}
 
 #profile_erick{
     width: 50%;
@@ -37,6 +43,12 @@ main{
     font-style: normal;
     color: white;
     z-index: 1;
+    transition: all 0.2s ease-in-out;
+}
+
+#first_name:hover{
+  font-size: 10vh;
+  color: #FDD835;
 }
 
 #last_name{
@@ -47,6 +59,12 @@ main{
     font-style: normal;
     color: white;
     z-index: 1;
+    transition: all 0.2s ease-in-out;
+}
+
+#last_name:hover{
+  font-size: 8vh;
+  color: #FDD835;
 }
 
 #info_profile{
