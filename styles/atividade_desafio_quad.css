@@ -1,0 +1,91 @@
+/* #quadrado_desafio{ 
+    width: 2vw;
+    height: 2vw;
+    background-color: aqua;
+    position: absolute;
+    animation: 15s linear loucura  infinite;
+    z-index: 5;
+}
+
+#quadrado_desafio:hover{
+    animation-play-state: paused;
+}
+
+@keyframes loucura{
+    0%{
+        transform: rotate(0.1turn);
+        background-color: red;
+        top: 10vh;
+        left: 5vw;
+    }
+
+    10%{
+        transform: rotate(0.2turn);
+        background-color: green;
+        top: 20vh;
+        left: 50vw;
+    }
+
+    20%{
+        transform: rotate(0.3turn);
+        background-color: blue;
+        top: 50vh;
+        left: 25vw;
+    }
+
+    30%{
+        transform: rotate(0.4turn);
+        background-color: rgb(247, 18, 228);
+        top: 100vh;
+        left: 35vw;
+    }
+
+    40%{
+        transform: rotate(0.5turn);
+        background-color: green;
+        top: 30vh;
+        left: 75vw;
+    }
+
+    50%{
+        transform: rotate(0.6turn);
+        background-color: yellow;
+        top: 60vh;
+        left: 5vw;
+    }
+
+    60%{
+        transform: rotate(0.7turn);
+        background-color: purple;
+        top: 80vh;
+        left: 95vw;
+    }
+
+    70%{
+        transform: rotate(0.8turn);
+        background-color: white;
+        top: 90vh;
+        left: 85vw;
+    }
+
+    80%{
+        transform: rotate(0.9turn);
+        background-color: blueviolet;
+        top: 5vh;
+        left: 55vw;
+    }
+
+    90%{
+        transform: rotate(1turn);
+        background-color: rgb(255, 166, 0);
+        top: 10vh;
+        left:5vw;
+    }
+
+    100%{
+        transform: rotate(1.1turn);
+        background-color: cadetblue;
+        top: 20vh;
+        left: 10vw;
+    }
+}*/

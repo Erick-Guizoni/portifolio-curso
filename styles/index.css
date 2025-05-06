@@ -1,119 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap');
-@import url(./header.css);
-@import url(./main.css);
-@import url(./footer.css);
+@import url(./header/header.css);
+@import url(./main/main.css);
+@import url(./footer/footer.css);
 
 body{
     width: 100vw;
     height: 100vh;
-
     margin: 0;
     padding: 0;
-    background-color: #373461;
     overflow: hidden;
 }
 
-/* #quadrado_desafio{ 
-    width: 2vw;
-    height: 2vw;
-    background-color: aqua;
-    position: absolute;
-    animation: 15s linear loucura  infinite;
-    z-index: 5;
+.cor_darkblue_bg{
+    background-color: var(--cor_darkblue);
 }
 
-#quadrado_desafio:hover{
-    animation-play-state: paused;
+.cor_darkblue{
+    color: var(--cor_darkblue);
 }
 
-@keyframes loucura{
-    0%{
-        transform: rotate(0.1turn);
-        background-color: red;
-        top: 10vh;
-        left: 5vw;
-    }
+.font_principal{
+    font-family: var(--font_p);
+}
 
-    10%{
-        transform: rotate(0.2turn);
-        background-color: green;
-        top: 20vh;
-        left: 50vw;
-    }
-
-    20%{
-        transform: rotate(0.3turn);
-        background-color: blue;
-        top: 50vh;
-        left: 25vw;
-    }
-
-    30%{
-        transform: rotate(0.4turn);
-        background-color: rgb(247, 18, 228);
-        top: 100vh;
-        left: 35vw;
-    }
-
-    40%{
-        transform: rotate(0.5turn);
-        background-color: green;
-        top: 30vh;
-        left: 75vw;
-    }
-
-    50%{
-        transform: rotate(0.6turn);
-        background-color: yellow;
-        top: 60vh;
-        left: 5vw;
-    }
-
-    60%{
-        transform: rotate(0.7turn);
-        background-color: purple;
-        top: 80vh;
-        left: 95vw;
-    }
-
-    70%{
-        transform: rotate(0.8turn);
-        background-color: white;
-        top: 90vh;
-        left: 85vw;
-    }
-
-    80%{
-        transform: rotate(0.9turn);
-        background-color: blueviolet;
-        top: 5vh;
-        left: 55vw;
-    }
-
-    90%{
-        transform: rotate(1turn);
-        background-color: rgb(255, 166, 0);
-        top: 10vh;
-        left:5vw;
-    }
-
-    100%{
-        transform: rotate(1.1turn);
-        background-color: cadetblue;
-        top: 20vh;
-        left: 10vw;
-    }
-}*/
+.font_secundary{
+    font-family: var(--font_s);
+}
 
 :root{
-    --cor_branca:#ffffff;
+    --cor_branca: white;
 
     --font_p: "Press Start 2P";
     
     --font_s: "VT323";
 
-    --font_t: ;
+    --cor_darkblue: #373461;
+
+    --cor_yellow1: #DDA615;
+
+    --cor_yellow2: #FDD835;
+
+    --cor_black: black;
 }
-
-
-
