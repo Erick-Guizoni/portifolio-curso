@@ -1,0 +1,31 @@
+.cor_darkblue_bg{
+    background-color: var(--cor_darkblue);
+}
+
+.cor_darkblue{
+    color: var(--cor_darkblue);
+}
+
+.font_principal{
+    font-family: var(--font_p);
+}
+
+.font_secundary{
+    font-family: var(--font_s);
+}
+
+:root{
+    --cor_branca: white;
+
+    --font_p: "Press Start 2P";
+    
+    --font_s: "VT323";
+
+    --cor_darkblue: #373461;
+
+    --cor_yellow1: #DDA615;
+
+    --cor_yellow2: #FDD835;
+
+    --cor_black: black;
+}
