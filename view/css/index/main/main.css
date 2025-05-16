@@ -1,0 +1,19 @@
+@import url(//view/css/Index/main/mainpackman.css);
+@import url(//view/css/Index/main/img_main.css);
+@import url(//view/css/Index/main/profile_erick.css);
+@import url(//view/css/Index/main/info_name.css);
+
+main {
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.margin_0 {
+    margin: 0;
+    padding: 0;
+}
+

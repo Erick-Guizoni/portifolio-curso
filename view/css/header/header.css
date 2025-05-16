@@ -1,6 +1,6 @@
-@import url(./ghost_header.css);
-@import url(./buttons_header.css);
-@import url(./profession_header.css);
+@import url(./../header/ghost_header.css);
+@import url(./../header/buttons_header.css);
+@import url(./../header/profession_header.css);
 
 header{
     width: 100%;
